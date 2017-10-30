@@ -1,8 +1,8 @@
-/* styles *//*  JavaScript 6th Edition
-    Chapter 3
-    Hands-on Project 3-1
+/*  JavaScript 6th Edition v 1.16
+ 
+    Large format style sheet
 
-    Filename: styles.css
+    Filename: styles2.css
 */
 
 /* apply a natural box layout model to all elements */
@@ -72,10 +72,10 @@ table {
 
 a:link, a:visited {
    text-decoration: none;
-   color: black;
+   color: #9f47dc;
 }
 
-/* changed the color of the text on the navigation tabs to black */
+/* changed the color of the text on the navigation tabs to purple */
 
 a:hover {
    text-decoration: underline;
@@ -86,10 +86,10 @@ a:hover {
 
 a:active {
    text-decoration: bold;
-   color: #9f47dc;
+   color: black;
 }
 
-/* changed color of the text on the navigation bar when mouse clicks to purple */
+/* changed color of the text on the navigation bar when mouse clicks to black */
 
 /* container */
 #container {
