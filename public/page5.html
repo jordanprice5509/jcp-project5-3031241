@@ -5,12 +5,12 @@
       JavaScript 6th Edition  v 1.16
      
 
-      Individual Project Template
+      Individual Project
   
       Author: Jordan Price
-      Date:   10/8/17
+      Date:   10/21/17
 
-      Filename: page 1.html
+      Filename: page 5.html
    -->
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
@@ -52,12 +52,30 @@
       </nav>
  	          
       <article>
-         <h2>Contact Us</h2>
-           <p>Email: contact@bouncyhousesales.com</p>
-           <p>Phone: (443) 262-5509</p>
+         <h2>Computer and Browser Information</h2>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
       </article>
      
-<!-- Changed the title and added contact information for the company-->
+<!-- Changed the header name. Added lines for the properties about the computer and browser, which are below. -->
+     
+      <article>
+         <h2>Using the Web Safely</h2>
+         <p>The following website provides 10 tips on how to stay safe online, including passwords, online shopping, scams, etc.</p>
+           <p2> <a href="https://securingtomorrow.mcafee.com/consumer/consumer-threat-notices/10-tips-stay-safe-online/"> 10 Tips to Stay Safe Online </a> </p2>
+         <p>This website provides information on browsing the web safely. It covers updating your software, security settings, cybercrime, etc.</p>
+           <p2> <a href="https://www.staysmartonline.gov.au/protect-yourself/do-things-safely/browsing-web-safely"> Browsing the web safely </a></p2>
+         <p>This last website also provides information on using the internet safely. It includes the risks of going online, how to know if a website is secure, what cookies are and how they work, and more. </p>
+           <p2> <a href="https://www.getsafeonline.org/protecting-your-computer/safe-internet-use/"> Safe Internet Use </a></p2>
+      </article>
+     
+<!-- Added a header for a new article. Added brief descriptions and links to websites. Under styles.css, I made it so the links to websites show up as purple, instead of black, so it is easier to see the link. -->
     
       <footer>
          <p>Bouncy House Sales &bull; Salisbury, Maryland</p>
@@ -66,6 +84,25 @@
 <!--Added my company name-->
      
    </div>
-  <script src="script.js"></script>
-</body>
+     <script>
+       "use scrict";
+          document.getElementsByTagName("p") [0].innerHTML =
+            "Web browser name: " + navigator.appName;
+          document.getElementsByTagName("p") [1].innerHTML =
+            "Web browser version: " + navigator.appVersion;
+          document.getElementsByTagName("p") [2].innerHTML =
+            "Operating platform: " + navigator.platform;
+          document.getElementsByTagName("p") [3].innerHTML =
+            "User agent: " + navigator.userAgent;
+          document.getElementsByTagName("p") [4].innerHTML =
+            "Screen Height: " + screen.height;
+          document.getElementsByTagName("p") [5].innerHTML =
+            "Screen Width: " + screen.width;
+          document.getElementsByTagName("p") [6].innerHTML =
+            "Screen Color Depth: " + screen.colorDepth;
+          document.getElementsByTagName("p") [7].innerHTML =
+            "Screen Pixel Depth: " + screen.pixelDepth;
+      </script>
+  <!-- Added the properties from the tables in the book about the computer and browser.-->
+  </body>
 </html>

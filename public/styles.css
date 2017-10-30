@@ -2,7 +2,7 @@
  
     Large format style sheet
 
-    Filename: project.css
+    Filename: styles.css
 */
 
 /* apply a natural box layout model to all elements */
@@ -72,10 +72,10 @@ table {
 
 a:link, a:visited {
    text-decoration: none;
-   color: black;
+   color: #9f47dc;
 }
 
-     /*changed the color of the text on the navigation tabs to black*/
+     /*changed the color of the text on the navigation tabs to purple*/
 
 a:hover {
    text-decoration: underline;
@@ -86,10 +86,10 @@ a:hover {
 
 a:active {
    text-decoration: bold;
-   color: #9f47dc;
+   color: black;
 }
 
-      /* changed color of the text on the navigation bar when mouse clicks to purple*/
+      /* changed color of the text on the navigation bar when mouse clicks to black*/
 
 /* container */
 #container {
@@ -168,8 +168,8 @@ article {
    border-top: 0px solid lightgray;
 }
 
-     /* changed font; added padding to the right side; reduced the top border and changed
-        the color to light gray */
+    /* changed font; added padding to the right side; reduced the top border and changed
+       the color to light gray */
 
 article h2 {
    font-family: "raleway",;
@@ -193,7 +193,7 @@ article p2 {
   margin-bottom: 6px;
   line-height: 1.2em;
   padding-top: 10px;
-  color: #9f47dc;
+  color: #9f47dc
 }
  
   /*changed color to purple*/
